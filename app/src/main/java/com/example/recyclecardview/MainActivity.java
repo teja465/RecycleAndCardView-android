@@ -64,6 +64,6 @@ public class MainActivity extends AppCompatActivity implements PersonAdapter.Ite
     }
 
     public void clickeCardItem(int i){
-        Toast.makeText(getApplicationContext(), "click  "+persons.get(i).getName(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "clicked  "+persons.get(i).getName(), Toast.LENGTH_SHORT).show();
     }
 }
